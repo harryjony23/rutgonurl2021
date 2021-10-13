@@ -1,7 +1,7 @@
 const MapsShort = new Vue({
   el: '#app',
   data: {
-    api: 'https://script.google.com/macros/s/AKfycbz7NvKd6AUcH29GPb-yfe9FrIuR9--ikNB-8meXF58bEh7VTGGr/exec',
+    api: 'https://script.google.com/macros/s/AKfycbxKpOO-RxHJvp7pZ6sF_EZbnOLqrfZ3O_NUt_cSH3Z7RBgarXqBD0phIz_Lr2_STwP7/exec',
     link: '',
     result: '',
     error: null
