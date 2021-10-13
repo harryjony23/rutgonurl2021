@@ -22,9 +22,9 @@ const MapsShort = new Vue({
         .then(result => {
           // 存一份資料到 Google Sheet
           let saveData = new FormData();
-          saveData.append('entry.1156946266', result);
-          saveData.append('entry.922598949', this.link);
-          fetch('https://docs.google.com/forms/u/0/d/e/1FAIpQLSfyFKOOwZvIgF2Mh4pQ4x7QsGZpXGe9M-iB2C9p2rMDd58DBg/formResponse', {
+          saveData.append('entry.1028341378', result);
+          saveData.append('entry.369879275', this.link);
+          fetch('https://docs.google.com/forms/u/0/d/e/1R48vq7uryMyfnRL0-ZfgUkVBfhemqhI7sd01Ukf2YpQ/formResponse', {
             method: 'POST',
             body: saveData
           })
